@@ -5,11 +5,9 @@ import json
 import time
 import datetime
 import os
+import sys
 
-'''
-Change the following directory with where this file and `timer.json` are located
-'''
-os.chdir("/home/emchap4/scripts/polybar/pomodoro")
+os.chdir(sys.path[0])
 
 '''
 # JSON Setup (in timer.json):
